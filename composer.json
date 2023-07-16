@@ -1,0 +1,20 @@
+{
+    "name": "qdenka/landing-generator",
+    "description": "Random landing page generator",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "QDenka\\LandingGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "QDenka",
+            "email": "a@bigf.at"
+        }
+    ],
+    "require": {
+      "ext-curl": "*",
+      "ext-json": "*"
+    }
+}
